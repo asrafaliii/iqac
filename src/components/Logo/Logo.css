@@ -1,0 +1,7 @@
+.container {
+  height: 80px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  padding-left: 140px;
+}

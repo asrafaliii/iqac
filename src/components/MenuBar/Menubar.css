@@ -1,0 +1,13 @@
+.menubar {
+  height: 60px;
+  background-color: green;
+  display: flex;
+  align-items: center;
+}
+.menubar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 36px;
+  float: right;
+}
