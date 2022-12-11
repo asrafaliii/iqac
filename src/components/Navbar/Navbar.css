@@ -1,15 +1,15 @@
 .navbar {
-  height: 60px;
+  height: 50px;
   background-color: gray;
   display: flex;
   align-items: center;
+  padding-left: 120px;
+ 
 }
 .navbar a {
   color: #fff;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 13px;
   text-transform: uppercase;
-  /* margin-left: 36px; */
-  justify-items: center;
-  justify-content: center;
+  margin-right: 70px;
 }

@@ -1,0 +1,28 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 0 120px 0 120px;
+}
+.card{
+    border: 2px solid green;
+    width: 370px;
+    height: 500px;
+    margin: 10px;
+}
+.card img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contant{
+    text-align: center;
+    padding: 10px;
+}
+.contant h3{
+    color: #971b1d;
+    padding-bottom: 5px;
+    
+}
+.contant p{
+    text-align: justify;
+}

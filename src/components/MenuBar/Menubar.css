@@ -1,8 +1,10 @@
 .menubar {
-  height: 60px;
-  background-color: green;
+  height: 50px;
+  background-color: #01803d;
   display: flex;
   align-items: center;
+  justify-content: end;
+  padding-right: 120px;
 }
 .menubar a {
   color: #fff;

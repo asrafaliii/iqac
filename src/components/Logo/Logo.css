@@ -1,7 +1,15 @@
 .container {
   height: 80px;
-  background-color: red;
+  background-color: #971b1d;
   display: flex;
   align-items: center;
-  padding-left: 140px;
+  padding-left: 120px;
+}
+img{
+  width: 60px;
+  align-items: center;
+}
+.text-section{
+  color: #ffff;
+  padding-left: 10px;
 }
