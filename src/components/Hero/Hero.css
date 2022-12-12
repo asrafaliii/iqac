@@ -3,11 +3,9 @@
     display: flex;
     align-items: center;
 }
-
 .hero-text{
     width: 40%;
-    margin-left: 120px;
-   
+    margin-left: 120px;  
 }
 .hero-text h1{
     max-width: 500px;
@@ -29,13 +27,37 @@
     text-transform: uppercase;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;  
+    margin-top: 10px;
 }
 .hero-img{
-    width: 60%;   
+    width: 60%; 
+    display: flex;
+    align-items: center;  
 }
 .hero-img img{
+    position: relative;
     width: 100%;
     margin-bottom: -10px;
+}
+@media screen and (max-width:700px) {
+    .hero-container{
+        flex-direction: column-reverse;
+        margin:0;
+        padding: 0;
+    }
+    .hero-img{
+        width: 100%;
+    }
+    .hero-text{
+        width: 100%;
+        margin: 20px 40px;
+    }
+    .hero-text h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .hero-text .button{
+        margin-top: 10px;
+    }
 }
