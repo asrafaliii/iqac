@@ -7,6 +7,7 @@ import "./Card.css";
 const Card = () => {
     return (
         <div className='card-container'>
+            <div className='card-section'>
             <div className='card'>
                 <img src={card1} alt="card" />
                 <div className='contant'>
@@ -15,10 +16,6 @@ const Card = () => {
                         The specific objectives are to: 
                          isntitutionalizze he specific objectives are to: 
                          isntitutionalizze the quality assurance culture the quality assurance culture in accordance with notional QA guide lines and internation proctices.
-                         he specific objectives are to: 
-                         isntitutionalizze the he specific objectives are to: 
-                         isntitutionalizze the quality assurance culture quality assurance culture 
-
                     </p>
                 </div>
             </div>
@@ -29,8 +26,7 @@ const Card = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipi
                         sicing elit. Beatae, unde reiciendis eveniet sunt perspiciatis non quae ut suscipit 
                         ipsam sint culpa itaque ab sit, placeat dicta illum laborum enim asperiores? Porro
-                        unde pariatur in ad consectetur modi, voluptas sint quaerat perferendis nisi ullam 
-                        nihil nobis quibusdam rerum distinctio illo saepe?</p>
+                        </p>
                 </div>
             </div>
             <div className='card'>
@@ -40,11 +36,11 @@ const Card = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipi
                         sicing elit. Beatae, unde reiciendis eveniet sunt perspiciatis non quae ut suscipit 
                         ipsam sint culpa itaque ab sit, placeat dicta illum laborum enim asperiores? Porro
-                        unde pariatur in ad consectetur modi, voluptas sint quaerat perferendis nisi ullam 
-                        nihil nobis quibusdam rerum distinctio illo saepe?</p>
+                        </p>
                 </div>
             </div>
             
+        </div>
         </div>
     );
 };

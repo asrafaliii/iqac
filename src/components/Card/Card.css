@@ -1,28 +1,45 @@
 .card-container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    padding: 0 120px 0 120px;
+    align-items: center;
+    padding: 0 90px;
+    margin-top: 50px;;
+}
+.card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .card{
+    flex: 1;
     border: 2px solid green;
-    width: 370px;
+    width: 320px;
     height: 500px;
-    margin: 10px;
+    margin: 20px;
 }
 .card img{
-    width: 100%;
-    margin-bottom: 10px;
+    width: 100%; 
 }
-.contant{
+.card .contant{
     text-align: center;
     padding: 10px;
 }
-.contant h3{
+.card .contant h3{
     color: #971b1d;
     padding-bottom: 5px;
     
 }
-.contant p{
+.card .contant p{
     text-align: justify;
+} 
+
+@media screen and (max-width: 768px) {
+    .card-section{
+        flex-direction: column;
+    }
+    
 }
