@@ -75,3 +75,32 @@ ul li a {
 .footer-bottom span{
     color: orangered;
 }
+
+@media screen and (max-width: 768px) {
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .address h3{
+        font-size: 15px;
+        
+    }
+    .col .social-icon{
+        margin: 10px 40px
+    }
+    .col .number{
+        align-items: center;
+        margin: 10px 50px;
+    }
+    .footer-bottom{
+        background-color:#006a4e;
+        color: #fff;
+        padding: 15px 15px 15px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+
+
+}
