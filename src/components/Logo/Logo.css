@@ -17,9 +17,10 @@ img{
 
 @media screen and (max-width: 768px) {
   .container{
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
+    display: none;
   }
-  img{
+  /* img{
     width: 50px;
     align-items: center; 
   }
@@ -30,6 +31,6 @@ img{
   .text-section p{
     font-size: 10px;
     color: #ffff;
-  }
+  } */
 
 }

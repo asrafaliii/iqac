@@ -15,22 +15,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .menubar {
-    height: 100px;
-    background-color: #01803d;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 0;
-  }
-  .menubar a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 15px;
-    /* float: right; */
-    /* padding: 0px; */
-    margin-left: 2px;
+  .menubar{
+    display: none;
   }
 }

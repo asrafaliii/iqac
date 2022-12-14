@@ -8,6 +8,7 @@ const Home = () => {
     <Hero />
     <Card />
     <Activities />
+   
   </div>;
 };
 
