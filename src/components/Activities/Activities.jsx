@@ -22,7 +22,7 @@ const Activities = () => {
                             <p>March 2022</p>
                         </div>
                         <div className='activities-contant'>
-                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, reiciendis?</h2>
+                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sint doloremque</p>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const Activities = () => {
                             <p>March 2022</p>
                         </div>
                         <div className='activities-contant'>
-                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, reiciendis?</h2>
+                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sint doloremque</p>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const Activities = () => {
                             <p>March 2022</p>
                         </div>
                         <div className='activities-contant'>
-                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, reiciendis?</h2>
+                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sint doloremque</p>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ const Activities = () => {
                             <p>March 2022</p>
                         </div>
                         <div className='activities-contant'>
-                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, reiciendis?</h2>
+                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sint doloremque</p>
                         </div>
                     </div>

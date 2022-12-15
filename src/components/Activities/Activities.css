@@ -49,6 +49,11 @@
         align-items: center;
         justify-content: center;
     }
+    .activities-container{
+        margin-bottom: -20px;
+        /* margin: -20px 0;; */
+    }
+
 
     .activities{
         display: flex;
