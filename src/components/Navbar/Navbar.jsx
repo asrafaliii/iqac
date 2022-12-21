@@ -13,36 +13,24 @@ const Navbar = () => {
 	};
   return (
     <header>
-			<img className="logo" src={logo} />
-			<nav ref={navRef}>
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/team">Team</Link>
-      <Link to="/activity">Activity</Link>
-      <Link to="/documents">Documents</Link>
-      <Link to="/trainingworkshop">Traning & Workshop</Link>
-      <Link to="/newsevent">News & Event</Link>
-      <Link to="/contactus">Contact Us</Link>
-				<button
-					className="nav-btn nav-close-btn"
-					onClick={showNavbar}>
+		<img className="nav-logo" src={logo} />
+		<nav ref={navRef}>
+			<Link to="/">Home</Link>
+			<Link to="/about">About</Link>
+			<Link to="/team">Team</Link>
+			<Link to="/activity">Activity</Link>
+			<Link to="/documents">Documents</Link>
+			<Link to="/trainingworkshop">Traning & Workshop</Link>
+			<Link to="/newsevent">News & Event</Link>
+			<Link to="/contactus">Contact Us</Link>
+			<button className="nav-btn nav-close-btn" onClick={showNavbar}>
 					<FaTimes />
-				</button>
-			</nav>
+			</button>
+		</nav>
 			<button className="nav-btn" onClick={showNavbar}>
 				<FaBars />
 			</button>
 		</header>
-    // <nav className="navbar">
-      // <Link to="/">Home</Link>
-      // <Link to="/about">About</Link>
-      // <Link to="/team">Team</Link>
-      // <Link to="/activity">Activity</Link>
-      // <Link to="/documents">Documents</Link>
-      // <Link to="/trainingworkshop">Traning & Workshop</Link>
-      // <Link to="/newsevent">News & Event</Link>
-      // <Link to="/contactus">Contact Us</Link>
-    // </nav>
   );
 };
 

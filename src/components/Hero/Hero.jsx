@@ -2,12 +2,14 @@ import React from 'react';
 import "./Hero.css";
 import banner from "../../assets/banner.jpg";
 
-// import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
-import "swiper/css";
-import "swiper/css/navigation";
+import 'swiper/css/autoplay';
 
 const Hero = () => {
     return (
@@ -20,28 +22,23 @@ const Hero = () => {
             </div>
             <div className='hero-img'>
                 <Swiper
-                // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={10}
-                slidesPerView={1}
-                navigation
-                breakpoints={{
-                    
-                }}
-                pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log("slide change")}
-                >
-                <SwiperSlide>
-                <img src={banner} />
-                </SwiperSlide>
-                <SwiperSlide>
-                <img src={banner} />
-                </SwiperSlide>
-                <SwiperSlide>
-                <img src={banner} />
-                </SwiperSlide>
+                    modules={[Navigation, Pagination, Autoplay]}
+                    slidesPerView={1}
+                    navigation
+                    autoplay={true}
+                    pagination={{ clickable: true }}>
+                    <SwiperSlide>
+                        <img src={banner} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={banner} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={banner} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={banner} />
+                    </SwiperSlide>
                 </Swiper>
             </div>
         </div>
